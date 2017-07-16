@@ -2,8 +2,8 @@
 
 # Startup instructions:
 * clone repository and cd into it
-* ``` yarn add ``` or ``` npm install ```
-* create a .env file with one environment variable set to ``` REACT_APP_API_HOST=https://jsonplaceholder.typicode.com ```
+* ``` yarn install ``` or ``` npm install ```
+* create a .env file in the root of the project with one environment variable set to ``` REACT_APP_API_HOST=https://jsonplaceholder.typicode.com ```
 * ``` yarn start ``` or ``` npm start ``` to start the development server (automatically opens localhost:3000)
 * ``` yarn test ``` or ``` npm test ``` to run tests
 * ``` yarn build ``` or ``` npm run build ``` to bundle using webpack
