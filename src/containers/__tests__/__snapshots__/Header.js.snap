@@ -1,0 +1,406 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the header should render correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div>
+    <nav
+        className="navbar navbar-default"
+    >
+        <div
+            className="container"
+        >
+            <div
+                className="navbar-brand"
+            >
+                FINCAD Tech Assessment
+            </div>
+            <ul
+                className="nav navbar-nav pull-right"
+                data-test="unauthed"
+            >
+                <li
+                    className="nav-item"
+                    onClick={[Function]}
+                >
+                    <a
+                        className="nav-link"
+                        data-test="unauthed"
+                    >
+                        Login
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <Modal
+        closeModal={[Function]}
+        modalTitle="Login"
+        showModal={false}
+    >
+        <form
+            onSubmit={[Function]}
+        >
+            <Input
+                data-test="username"
+                handleInputChange={[Function]}
+                inputId="usernameInput"
+                inputLabel="Username"
+                inputPlaceholder="Enter Username"
+                inputType="input"
+                inputValue=""
+            />
+            <Input
+                data-test="password"
+                handleInputChange={[Function]}
+                inputId="passwordInput"
+                inputLabel="Password"
+                inputPlaceholder="Enter Password"
+                inputType="password"
+                inputValue=""
+            />
+            <button
+                className="btn pull-right"
+                onClick={[Function]}
+                style={
+                    Object {
+                        "marginLeft": "10px",
+                      }
+                }
+            >
+                Close
+            </button>
+            <button
+                className="btn pull-right"
+                data-test="submit"
+                type="submit"
+            >
+                Login
+            </button>
+        </form>
+    </Modal>
+</div>,
+  "nodes": Array [
+    <div>
+      <nav
+            className="navbar navbar-default"
+      >
+            <div
+                  className="container"
+            >
+                  <div
+                        className="navbar-brand"
+                  >
+                        FINCAD Tech Assessment
+                  </div>
+                  <ul
+                        className="nav navbar-nav pull-right"
+                        data-test="unauthed"
+                  >
+                        <li
+                              className="nav-item"
+                              onClick={[Function]}
+                        >
+                              <a
+                                    className="nav-link"
+                                    data-test="unauthed"
+                              >
+                                    Login
+                              </a>
+                        </li>
+                  </ul>
+            </div>
+      </nav>
+      <Modal
+            closeModal={[Function]}
+            modalTitle="Login"
+            showModal={false}
+      >
+            <form
+                  onSubmit={[Function]}
+            >
+                  <Input
+                        data-test="username"
+                        handleInputChange={[Function]}
+                        inputId="usernameInput"
+                        inputLabel="Username"
+                        inputPlaceholder="Enter Username"
+                        inputType="input"
+                        inputValue=""
+                  />
+                  <Input
+                        data-test="password"
+                        handleInputChange={[Function]}
+                        inputId="passwordInput"
+                        inputLabel="Password"
+                        inputPlaceholder="Enter Password"
+                        inputType="password"
+                        inputValue=""
+                  />
+                  <button
+                        className="btn pull-right"
+                        onClick={[Function]}
+                        style={
+                              Object {
+                                    "marginLeft": "10px",
+                                  }
+                        }
+                  >
+                        Close
+                  </button>
+                  <button
+                        className="btn pull-right"
+                        data-test="submit"
+                        type="submit"
+                  >
+                        Login
+                  </button>
+            </form>
+      </Modal>
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <Header
+        auth={
+                Object {
+                        "email": "",
+                        "errorMessage": "",
+                        "isLoggedIn": false,
+                        "name": "",
+                        "userError": false,
+                      }
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": Header {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "handleLoginInputChange": [Function],
+        "handleLoginSubmit": [Function],
+        "handleLogoutSubmit": [Function],
+        "handleModalClose": [Function],
+        "handleModalOpen": [Function],
+        "props": Object {
+          "auth": Object {
+            "email": "",
+            "errorMessage": "",
+            "isLoggedIn": false,
+            "name": "",
+            "userError": false,
+          },
+        },
+        "refs": Object {},
+        "state": Object {
+          "passwordInput": "",
+          "showModal": false,
+          "usernameInput": "",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div>
+          <nav
+                    className="navbar navbar-default"
+          >
+                    <div
+                              className="container"
+                    >
+                              <div
+                                        className="navbar-brand"
+                              >
+                                        FINCAD Tech Assessment
+                              </div>
+                              <ul
+                                        className="nav navbar-nav pull-right"
+                                        data-test="unauthed"
+                              >
+                                        <li
+                                                  className="nav-item"
+                                                  onClick={[Function]}
+                                        >
+                                                  <a
+                                                            className="nav-link"
+                                                            data-test="unauthed"
+                                                  >
+                                                            Login
+                                                  </a>
+                                        </li>
+                              </ul>
+                    </div>
+          </nav>
+          <Modal
+                    closeModal={[Function]}
+                    modalTitle="Login"
+                    showModal={false}
+          >
+                    <form
+                              onSubmit={[Function]}
+                    >
+                              <Input
+                                        data-test="username"
+                                        handleInputChange={[Function]}
+                                        inputId="usernameInput"
+                                        inputLabel="Username"
+                                        inputPlaceholder="Enter Username"
+                                        inputType="input"
+                                        inputValue=""
+                              />
+                              <Input
+                                        data-test="password"
+                                        handleInputChange={[Function]}
+                                        inputId="passwordInput"
+                                        inputLabel="Password"
+                                        inputPlaceholder="Enter Password"
+                                        inputType="password"
+                                        inputValue=""
+                              />
+                              <button
+                                        className="btn pull-right"
+                                        onClick={[Function]}
+                                        style={
+                                                  Object {
+                                                            "marginLeft": "10px",
+                                                          }
+                                        }
+                              >
+                                        Close
+                              </button>
+                              <button
+                                        className="btn pull-right"
+                                        data-test="submit"
+                                        type="submit"
+                              >
+                                        Login
+                              </button>
+                    </form>
+          </Modal>
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div>
+          <nav
+                    className="navbar navbar-default"
+          >
+                    <div
+                              className="container"
+                    >
+                              <div
+                                        className="navbar-brand"
+                              >
+                                        FINCAD Tech Assessment
+                              </div>
+                              <ul
+                                        className="nav navbar-nav pull-right"
+                                        data-test="unauthed"
+                              >
+                                        <li
+                                                  className="nav-item"
+                                                  onClick={[Function]}
+                                        >
+                                                  <a
+                                                            className="nav-link"
+                                                            data-test="unauthed"
+                                                  >
+                                                            Login
+                                                  </a>
+                                        </li>
+                              </ul>
+                    </div>
+          </nav>
+          <Modal
+                    closeModal={[Function]}
+                    modalTitle="Login"
+                    showModal={false}
+          >
+                    <form
+                              onSubmit={[Function]}
+                    >
+                              <Input
+                                        data-test="username"
+                                        handleInputChange={[Function]}
+                                        inputId="usernameInput"
+                                        inputLabel="Username"
+                                        inputPlaceholder="Enter Username"
+                                        inputType="input"
+                                        inputValue=""
+                              />
+                              <Input
+                                        data-test="password"
+                                        handleInputChange={[Function]}
+                                        inputId="passwordInput"
+                                        inputLabel="Password"
+                                        inputPlaceholder="Enter Password"
+                                        inputType="password"
+                                        inputValue=""
+                              />
+                              <button
+                                        className="btn pull-right"
+                                        onClick={[Function]}
+                                        style={
+                                                  Object {
+                                                            "marginLeft": "10px",
+                                                          }
+                                        }
+                              >
+                                        Close
+                              </button>
+                              <button
+                                        className="btn pull-right"
+                                        data-test="submit"
+                                        type="submit"
+                              >
+                                        Login
+                              </button>
+                    </form>
+          </Modal>
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Header
+    auth={
+        Object {
+            "email": "",
+            "errorMessage": "",
+            "isLoggedIn": false,
+            "name": "",
+            "userError": false,
+          }
+    }
+/>,
+}
+`;
