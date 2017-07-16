@@ -94,7 +94,7 @@ class NewComment extends Component {
               data-test="textarea"
             />
             <button className="btn" type="submit" data-test="submit">
-              Post
+              Submit
             </button>
           </form>
         </Panel>
